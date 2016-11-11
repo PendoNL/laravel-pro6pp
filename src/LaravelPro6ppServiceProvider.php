@@ -30,7 +30,7 @@ class LaravelPro6ppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('laravel-pro6pp', function() {
+        $this->app->singleton('laravel-pro6pp', function () {
             return new \PendoNL\Pro6pp\Pro6pp(
                 config('laravel-pro6pp.api_key'),
                 config('laravel-pro6pp.api_format'),
