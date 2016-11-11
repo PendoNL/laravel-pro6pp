@@ -4,8 +4,8 @@
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 [![Travis branch](https://img.shields.io/travis/PendoNL/laravel-pro6pp/master.svg)](https://travis-ci.org/PendoNL/laravel-fontawesome)
 [![Scrutinizer](https://img.shields.io/scrutinizer/g/PendoNL/laravel-pro6pp.svg)](https://scrutinizer-ci.com/g/PendoNL/laravel-fontawesome/)
-[![SensioLabs Insight](https://img.shields.io/sensiolabs/i/e660c560-9d50-43e3-9be1-e556ba78f189.svg)](https://insight.sensiolabs.com/projects/e660c560-9d50-43e3-9be1-e556ba78f189)
-[![Style Ci](https://styleci.io/repos/73300601/shield)](https://styleci.io/repos/73300601/)
+[![SensioLabs Insight](https://img.shields.io/sensiolabs/i/ab3c9257-2b29-47fd-8ef4-57f31bc53078.svg)](https://insight.sensiolabs.com/projects/ab3c9257-2b29-47fd-8ef4-57f31bc53078)
+[![Style Ci](https://styleci.io/repos/73506076/shield)](https://styleci.io/repos/73506076/)
 [![Github All Releases](https://img.shields.io/github/downloads/pendo/laravel-pro6pp/total.svg)](https://github.com/pendonl/laravel-fontawesome)
 
 The `PendoNL/laravel-pro6pp` package provides an easy to use way to communicate with Pro6PP's API to fetch location based data via a Facade. Of course you may also use the class without the Facade. More information on the class and it's methods can be found [here](https://github.com/PendoNL/pro6pp-php-wrapper).
