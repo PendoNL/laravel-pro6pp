@@ -10,6 +10,26 @@ Install the package using composer:
 
 `composer require pendonl/laravel-pro6pp`
 
+Next, you must install the service provider:
+
+```php
+// config/app.php
+'providers' => [
+    ...
+    PendoNL\LaravelPro6pp\LaravelPro6ppServiceProvider::class,
+];
+```
+
+Optionally, register the facade:
+
+```php
+// config/app.php
+'aliases' => [
+    ...
+    'Pro6pp' => PendoNL\LaravelPro6pp\Facade::class,
+];
+```
+
 To function properly, thise package requires `pendonl/pro6pp-php-wrapper`, this dependency will be installed automatically.
 
 Then publish the configuration file using:
