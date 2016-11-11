@@ -14,5 +14,5 @@ return [
     /**
      * Formatted output if true, not formatted if false
      */
-    'pretty_results' => false,
+    'pretty_results' => env('PRO6PP_PRETTY', false),
 ];
