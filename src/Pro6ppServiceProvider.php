@@ -8,7 +8,7 @@ use Illuminate\Support\ServiceProvider;
 /**
  * Class LaravelFontAwesomeServiceProvider.
  */
-class LaravelFontAwesomeServiceProvider extends ServiceProvider
+class LaravelPro6ppServiceProvider extends ServiceProvider
 {
     /**
      * Boot method registers the blade directive.
