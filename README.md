@@ -4,7 +4,17 @@
 
 The `PendoNL/laravel-pro6pp` package provides an easy to use way to communicate with Pro6PP's API to fetch location based data via a Facade. Of course you may also use the class without the Facade. More information on the class and it's methods can be found [here](https://github.com/PendoNL/pro6pp-php-wrapper).
 
-## Installation & Usage
+## Usage
+
+You can use any method by using the Facade, your API key and preferred data type are used automatically with each request:
+
+```php
+$getAddress = Pro6pp::autocomplete(6225, '7', c);
+$suggestions = Pro6pp::suggest('Maast', 10);
+$distanceBetweenCoordinates = Pro6pp::coordinateDistance(50.858030, 5.717376, 50.840078, 5.659258);
+```
+
+## Installation
 
 Install the package using composer:
 
