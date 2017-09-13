@@ -26,7 +26,7 @@ Install the package using composer:
 
 `composer require pendonl/laravel-pro6pp`
 
-Next, you must install the service provider:
+Next, you must install the service provider (for L5.5 and up Auto-Discovery is enabled):
 
 ```php
 // config/app.php
