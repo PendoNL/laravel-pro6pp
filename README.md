@@ -6,7 +6,7 @@
 [![Scrutinizer](https://img.shields.io/scrutinizer/g/PendoNL/laravel-pro6pp.svg)](https://scrutinizer-ci.com/g/PendoNL/laravel-fontawesome/)
 [![SensioLabs Insight](https://img.shields.io/sensiolabs/i/ab3c9257-2b29-47fd-8ef4-57f31bc53078.svg)](https://insight.sensiolabs.com/projects/ab3c9257-2b29-47fd-8ef4-57f31bc53078)
 [![Style Ci](https://styleci.io/repos/73506076/shield)](https://styleci.io/repos/73506076/)
-[![Github All Releases](https://img.shields.io/github/downloads/pendo/laravel-pro6pp/total.svg)](https://github.com/pendonl/laravel-fontawesome)
+[![Total Downloads](https://img.shields.io/packagist/dt/pendonl/laravel-pro6pp.svg?style=flat-square)](https://packagist.org/packages/pendonl/laravel-pro6pp)
 
 The `PendoNL/laravel-pro6pp` package provides an easy to use way to communicate with Pro6PP's API to fetch location based data via a Facade. Of course you may also use the class without the Facade. More information on the class and it's methods can be found [here](https://github.com/PendoNL/pro6pp-php-wrapper).
 
